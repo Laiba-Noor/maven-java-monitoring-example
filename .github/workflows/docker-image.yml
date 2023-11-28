@@ -14,4 +14,4 @@ jobs:
         run: |
           docker build -t laibanoor/maven-java-monitoring-example .
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker push laibanoor/maven-java-monitoring-examplee
+          docker push laibanoor/maven-java-monitoring-example
